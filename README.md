@@ -15,7 +15,7 @@
 
 ## General info
 
-This is a portfolio project for the Codeacademy **FullStack-Engineer** carrer path.
+This is a portfolio project for the Codeacademy **Full-Stack Engineer** career path.
 
 #### Project Objectives
 
