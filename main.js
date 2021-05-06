@@ -102,7 +102,7 @@ let data = {
 		let quote = this.quote;
 		let farewell = this.farewell;
 
-		return `${greeting}, your quote:\n${quote}\n${farewell}`;
+		return `\n${greeting}, your quote:\n\n  ${quote}\n\n${farewell}\n`;
 	},
 };
 
