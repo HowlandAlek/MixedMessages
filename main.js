@@ -5,7 +5,19 @@
 */
 
 let data = {
-	_greetings: [["Good Morning"], ["Good Afternoon"], ["Good Evening"]],
+	_greetings: [
+		[
+			"Good Morning",
+			"Wishing you a warm and healthy morning",
+			"Cool and fresh greetings",
+		],
+		[
+			"Good Afternoon",
+			"Wishing you a very warm afternoon",
+			"Wishing you a refreshing afternoon",
+		],
+		["Good Evening", "Wishing you a wonderful night", "Before you sleep"],
+	],
 	_quotes: [
 		[
 			"“We are what we repeatedly do. Excellence, then, is not an act, but a habit.” – Aristotle",
@@ -35,7 +47,7 @@ let data = {
 			"“Work like there is someone working twenty four hours a day to take it away from you.” – Mark Cuban",
 		],
 	],
-	_farewells: [["Good-bye."], ["See you soon."], ["See you then."]],
+	_farewells: ["Good-bye.", "See you soon.", "See you then."],
 	_types: ["Motivational", "Entrepreneurs", "Hustle"],
 	get greeting() {
 		let date = new Date();
@@ -81,28 +93,16 @@ let data = {
 		}
 	},
 	get farewell() {
-		let date = new Date();
-		let hour = date.getHours();
+		let rndIndex = Math.floor(Math.random() * this._farewells.length);
 
-		let rndIndex = 0;
-
-		if (hour < 12) {
-			rndIndex = Math.floor(Math.random() * this._farewells[0].length);
-			return this._farewells[0][rndIndex];
-		} else if (hour > 12 && hour < 19) {
-			rndIndex = Math.floor(Math.random() * this._farewells[1].length);
-			return this._farewells[1][rndIndex];
-		} else {
-			rndIndex = Math.floor(Math.random() * this._farewells[2].length);
-			return this._farewells[2][rndIndex];
-		}
+		return this._farewells[rndIndex];
 	},
 	createQuote() {
 		let greeting = this.greeting;
 		let quote = this.quote;
 		let farewell = this.farewell;
 
-		return `\n${greeting}, your quote:\n\n  ${quote}\n\n${farewell}\n`;
+		return `\n${greeting}, your quote for today:\n\n  ${quote}\n\n${farewell}\n`;
 	},
 };
 
