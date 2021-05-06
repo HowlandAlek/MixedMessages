@@ -1,58 +1,51 @@
 # Mixed Messages
 
-> Descripction
+> Motivational quote generator.
 
 ## Table of contents
 
 - [General info](#general-info)
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
-- [Setup](#setup)
 - [Features](#features)
 - [Status](#status)
-- [Inspiration](#inspiration)
+- [Credits](#inspiration)
 - [Contact](#contact)
 
 ## General info
 
-Add more general information about project. What the purpose of the project is? Motivation?
+This is a portfolio project for the Codeacademy **FullStack-Engineer** carrer path.
+
+#### Project Objectives
+
+- Build a message generator program using JavaScript
+- Use Git version control
+- Use command line
+- Develop locally on your computer
 
 ## Screenshots
 
 ## Technologies
 
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
-## Setup
-
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-
-Show examples of usage:
-`put-your-code-here`
+- Node.js - version 15.14.0
 
 ## Features
 
-List of features ready and TODOs for future development
-
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
-To-do list:
-
-- Wow improvement to be done 1
-- Wow improvement to be done 2
+- Generates a time-based greeting.
+- Logs a quote of the following types:
+  - Motivatinal
+  - Entrepreneur
+  - Hustle
+- Generates a farewell message.
 
 ## Status
 
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _finished_.
 
-## Inspiration
+## Credits
 
-Add here credits. Project inspired by..., based on...
+Motivational quotes source from [OBERLO](https://www.oberlo.com/blog/motivational-quotes)
 
 ## Contact
+
+@HowlandAlek
