@@ -8,6 +8,7 @@
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Features](#features)
+- [Usage](#usage)
 - [Status](#status)
 - [Credits](#inspiration)
 - [Contact](#contact)
@@ -21,7 +22,7 @@ This is a portfolio project for the Codeacademy **FullStack-Engineer** carrer pa
 - Build a message generator program using JavaScript
 - Use Git version control
 - Use command line
-- Develop locally on your computer
+- Develop locally
 
 ## Screenshots
 
@@ -33,10 +34,14 @@ This is a portfolio project for the Codeacademy **FullStack-Engineer** carrer pa
 
 - Generates a time-based greeting.
 - Logs a quote of the following types:
-  - Motivatinal
+  - Motivational
   - Entrepreneur
   - Hustle
 - Generates a farewell message.
+
+## Usage
+
+`node main.js`
 
 ## Status
 
